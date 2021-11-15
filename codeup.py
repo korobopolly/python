@@ -66,7 +66,24 @@ print(c2,c1)
 #6017번 문제
 s=input()
 print(s,s,s)
-'''
+
 #6018번 문제
 time,minute=input().split(':') #split 문자를 기준으로 자름
 print(time,minute,sep=':') #sep 문자를 사이에 두고 출력
+
+#6019번 문제
+y, m, d=input().split('.')
+print(d,m,y,sep='-')
+
+#6020번 문제
+a,b=input().split('-')
+print(a,b,sep='')
+
+#6021번 문제
+s=input()
+for i in range(len(s)):
+    print(s[i])
+'''
+#6022번 문제
+s=input()
+print(s[0:2],s[2:4],s[4:6],end=" ")

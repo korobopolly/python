@@ -83,7 +83,16 @@ print(a,b,sep='')
 s=input()
 for i in range(len(s)):
     print(s[i])
-'''
+
 #6022번 문제
 s=input()
 print(s[0:2],s[2:4],s[4:6],end=" ")
+
+#6023번 문제
+time, minute, second=input().split(':')
+print(minute)
+'''
+#6024번 문제
+w1,w2=input().split()
+s=w1+w2
+print(s)
